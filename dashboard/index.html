@@ -1,9 +1,10 @@
 <!doctype html>
 <html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; base-uri 'none'; form-action 'none'">
-<title>품질 분석 대시보드 목록</title><style>
+<title>분석 대시보드 목록</title><style>
 *{box-sizing:border-box}body{margin:0;background:#f3f6fa;color:#17283e;font-family:"Malgun Gothic",sans-serif;line-height:1.7}main{max-width:1000px;margin:auto;padding:72px 24px}.label{font-size:13px;color:#327b8b;font-weight:700;letter-spacing:.12em}h1{font-size:34px;margin:8px 0 12px;letter-spacing:-.04em}.intro{color:#5b6f82;margin-bottom:36px}.grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}.card{display:block;padding:28px;background:white;border:1px solid #dce4ed;border-radius:16px;text-decoration:none;color:inherit}.card:hover{border-color:#327b8b;box-shadow:0 6px 20px #173e5610}.card:focus-visible{outline:3px solid #327b8b;outline-offset:4px}.tag{color:#327b8b;font-size:13px;font-weight:700}h2{font-size:22px;margin:12px 0}.card p{font-size:15px;color:#5b6f82}.open{display:block;margin-top:24px;color:#20616b;font-weight:700}footer{font-size:13px;color:#617085;margin-top:32px}@media(max-width:650px){main{padding:36px 18px}.grid{grid-template-columns:1fr}h1{font-size:28px}}</style></head>
-<body><main><span class="label">INCOMING INSPECTION</span><h1>품질 분석 대시보드</h1><p class="intro">입고검사 현황에서 협력사 재계약 검토까지, 회차별 분석 자료를 확인하세요.</p>
+<body><main><span class="label">ANALYSIS DASHBOARDS</span><h1>나의 분석 대시보드</h1><p class="intro">품질 분석부터 매장 주문량 예측까지, 회차별 분석 자료를 확인하세요.</p>
 <div class="grid"><a class="card" href="./inspection-eda/inspection_dashboard.html"><span class="tag">02회차</span><h2>입고검사 품질 대시보드</h2><p>검사 현황과 불량 분석을 확인하는 대시보드입니다. 원본의 탐색·검토 기능을 그대로 유지했습니다.</p><span class="open">대시보드 열기 →</span></a>
-<a class="card" href="./supplier-review/supplier_review.html"><span class="tag">03회차</span><h2>협력사 재계약 검토</h2><p>협력사별 품질 요약, 치수 통계와 분포를 비교합니다. 기존 품질 현황과 독립적인 검토 필터를 제공합니다.</p><span class="open">대시보드 열기 →</span></a></div>
-<footer>각 HTML에 검사기록 6,000개와 화면 코드가 내장되어 있습니다.<br>외부 CSV·JSON·라이브러리 없이 로컬에서도 열립니다. 원본 데이터 변경은 자동 반영되지 않습니다.</footer></main></body></html>
+<a class="card" href="./supplier-review/supplier_review.html"><span class="tag">03회차</span><h2>협력사 재계약 검토</h2><p>협력사별 품질 요약, 치수 통계와 분포를 비교합니다. 기존 품질 현황과 독립적인 검토 필터를 제공합니다.</p><span class="open">대시보드 열기 →</span></a>
+<a class="card" href="./order-forecast/orders_dashboard.html"><span class="tag">05회차</span><h2>05회차-매장 주문량 예측 검토</h2><p>매장·요일별 주문 현황과 실제·예측 결과, 큰 오차 기록 및 회귀계수 해석을 확인합니다. 전체·개별 매장 선택에 맞춰 그래프와 수치가 함께 바뀝니다.</p><span class="open">대시보드 열기 →</span></a></div>
+<footer>각 대시보드 HTML에 해당 분석 데이터와 화면 코드가 내장되어 있습니다.<br>외부 CSV·JSON·라이브러리 없이 로컬에서도 열립니다. 원본 데이터 변경은 자동 반영되지 않습니다.</footer></main></body></html>
